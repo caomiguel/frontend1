@@ -1,0 +1,150 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 1024px;
+}
+
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+#top-menu {
+    background-color: #1CD1B0;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    height 38px;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    
+}
+
+#main-menu {
+    background-color: #00669F;
+    position: fixed;
+    top: 38px;
+    height: 101px;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 28px;
+}
+
+#contenedor-global {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 293px;
+    width: 100%;
+}
+
+#contenedor-personaje {
+    background-color: #F3F3F3;
+    border-radius: 16px;
+    display: inline-flexbox;
+    height: auto;
+    width: 300px;
+    min-width: 300px;
+    vertical-align: top;
+    position: relative;
+    margin-right: 30px;
+}
+
+.corazon {
+    background-image: url(../img/corazon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+    top: 15.88px;
+    left: 21px;
+    z-index: 2;
+}
+
+#bg-batman {
+    background-image: url(../img/bg-batman.png);
+    position: relative;
+    height: 193px;
+}
+
+#profile-batman {
+    background-image: url(../img/profile-batman.png);
+    border-radius: 100%;
+    display: inline-flex;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 126px;
+    left: 30%;
+    right: auto;
+}
+
+#bg-quinn {
+    background-image: url(../img/bg-quinn.png);
+    position: relative;
+    height: 193px;
+}
+
+#profile-harley {
+    background-image: url(../img/profile-harley.png);
+    border-radius: 100%;
+    display: inline-flex;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 126px;
+    left: 30%;
+    right: auto;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+}
+
+.contenido {
+    padding: 16px;
+}
+
+.boton {
+    background-color: #00669F;
+    width: 128.78px;
+    line-height: 48.52px;       /* The same as your div height */
+    color: white;
+    position: relative;
+    left: 85px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    height: 51px;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    padding-left: 16px;
+    position: fixed;
+    bottom: 0px;
+}
