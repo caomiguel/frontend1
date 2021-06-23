@@ -12,7 +12,7 @@ body {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-  }
+}
 
 #top-menu {
     background-color: #1CD1B0;
