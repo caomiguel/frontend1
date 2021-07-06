@@ -144,6 +144,7 @@ li:before {
     background-color: #FBFAF6;
     border-radius: 5px;
     min-width: 265px;
+    margin-bottom: 1.5rem;
 }
 
 .item-price {
@@ -304,7 +305,7 @@ footer .fa {
     }
 
     .item {
-        width: auto;
+        min-width: 25%;
     }
 
     #contact input, textarea {
