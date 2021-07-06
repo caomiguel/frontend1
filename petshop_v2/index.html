@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontCat&Dog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Barra de navegación  -->
+
+    <header>
+        <div id="secondary-menu">
+            <div id="promo">Grandes ofertas en comederos</div>
+            <div id="languages">
+
+            </div>
+            <div id="currency">
+
+            </div>
+        </div>
+        <div id="main-menu">
+            <div id="main-logo"><img src="img/logo.png" alt="Logo"></div>
+            <div id="hamburger-menu"><a href="#" class="fa fa-bars"></a></div>
+            <div id="navigation">
+                <nav>
+                    <ul>
+                        <li><a href="#">Categorías</a></li>
+                        <li><a href="#">Pets</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<!-- Slider principal  -->
+
+    <section id="hero">
+        <div id="hero-content">
+            <div id="hero-title"><h1>Es un placer tenerte aquí</h1></div>
+            <div id="hero-text">Comederos en descuento</div>
+            <button>COMEDEROS</button>
+        </div>
+    </section>
+
+<!-- Tienda  -->
+
+    <section id="store">
+        <div id="store-title">
+            <div id="store-title-img"></div>
+            <div id="store-title-text"><h2>Productos Destacados</h2></div>
+            <div id="store-categories">Comederos - Accesorios - Comida</div>
+        </div>
+
+        <div id="store-items">
+            <div class="item">
+                <div class="item-img"><img src="img/churrasquito.png" alt="Churrasquito"></div>
+                <div class="item-title">Juguete Churrasquito</div>
+                <div class="item-price">$150</div>
+            </div>
+
+            <div class="item">
+                <div class="item-img"><img src="img/comedero.png" alt="Comedero"></div>
+                <div class="item-title">Comedero para perro</div>
+                <div class="item-price">$250</div>
+            </div>
+
+            <div class="item">
+                <div class="item-img"><img src="img/Huesito.png" alt="Juguete Huesito"></div>
+                <div class="item-title">Juguete Huesito</div>
+                <div class="item-price">$650</div>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Contacto  -->
+
+    <section id="contact">
+
+        <div id="contact-title"><h2>Contáctanos</h2></div>
+        <form action="/registro" method="POST">
+
+            <label for="name"></label>
+            <input type="text" name="name" id="name" value="Nombre y apellido">
+            </br>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" value="Ingresa tu correo electrónico">
+            </br>
+            <label for="telefono"></label>
+            <input type="phone" name="phone" id="phone" value="Teléfono">
+            </br>
+            <label for="messaje"></label>
+            <textarea name="messaje" id="messaje" value="Escribe tu mensaje.">Escribe tu mensaje aquí.</textarea>
+            </br>
+            <button id="reset" type="reset" value="Resetear">Resetear</button>
+            <button class="submit" type="submit" value="Enviar">Enviar</button>
+        </form>
+    </section>
+
+<!-- Suscripción  -->
+
+    <section id="suscribe">
+        <div id="suscribe-ico"><img src="img/enviar-correo 1.png" alt="Enviar correo"></div>
+        <div id="suscribe-title"><h2>Suscríbete para más novedades</h2></div>
+        <div id="sucribe-form">
+            <form action="suscribe" method="POST">
+                <input type="email" name="email" id="email" value="Tu E-mail">
+                <button type="submit" value="Suscribirme">Suscribirme</button>
+            </form>
+        </div>
+    </section>
+
+<!-- Footer  -->
+
+    <footer>
+        <div id="footer-container">
+            <div id="footer-logo"><img src="img/logo-footer.png" alt="Logo Footer"></div>
+                <div id="footer-column">
+
+                    <div class="footer-card">
+                        <div class="footer-card-icon"><img src="img/icono-locacion.png" alt="Localidad"></div>
+                        <div class="footer-card-text">
+                            <h2>Localidad</h2>
+                            <p>Calle - Provincia</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-card">
+                        <div class="footer-card-icon"><img src="img/icono-telefono.png" alt="Teléfono"></div>
+                        <div class="footer-card-text">
+                            <h2>Teléfono</h2>
+                            <p>Número de teléfono</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-card">
+                        <div class="footer-card-icon"><img src="img/icono-correo.png" alt="Correo electrónico"></div>
+                        <div class="footer-card-text">
+                            <h2>Localidad</h2>
+                            <p>Dirección de correo</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-card">
+                        <div class="footer-card-text">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <h2>Redes sociales</h2>
+                            <p>Síguenos</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="copyright">Todos los derechos reservados Frond End</div>
+
+
+</body>
+</html>
